@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "6sp0neLqyC66GjumiiyJN877nDOXQUFshcoUTT/pYQnJFY3ayXegXQWDpVtt5DkLxPAnOoUOGbMoa2bGR926MQ==",
+  "dgSpecHash": "NK7YGre7QI0ZgdVJOVAY3SzfM3Vp8Cf/FGhhcntm0OUWYZTAU5Jr3cB/hXiRqExCw4Zt1ou4VV6O+2S4Rd4ILA==",
   "success": true,
   "projectFilePath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Purchase\\Purchase.Services\\Purchase.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

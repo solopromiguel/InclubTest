@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sVFYrq7K4+Hu1Ye6BGGtlobG8uRNIM8klturL7MSAakfVc2VrjdYG8220tsAa8psVvSX3kO3JN5hyN1rq6HOtQ==",
+  "dgSpecHash": "6gHHSj9pyY9O5IsrMWJh6YUKwpQFKbdJcvOD23ni9DmqqGKzoYKlzqafG97mf9/SN1SI/8ApQ/RzM96kw0WI2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Purchase\\Purchase.Api\\Purchase.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
