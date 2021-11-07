@@ -1,0 +1,13 @@
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\bin\Debug\netcoreapp3.1\Identity.Service.deps.json
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\bin\Debug\netcoreapp3.1\Identity.Service.dll
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\bin\Debug\netcoreapp3.1\Identity.Service.pdb
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\bin\Debug\netcoreapp3.1\Identity.Domain.dll
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\bin\Debug\netcoreapp3.1\Identity.Domain.pdb
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.csproj.AssemblyReference.cache
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.AssemblyInfoInputs.cache
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.AssemblyInfo.cs
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.csproj.CoreCompileInputs.cache
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.csproj.CopyComplete
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.dll
+C:\Users\MIGUEL\source\repos\InclubTestMG\services\Identity\Identity.Service\obj\Debug\netcoreapp3.1\Identity.Service.pdb
