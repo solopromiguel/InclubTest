@@ -49,6 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "services\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Additional Files", "00. Additional Files", "{7D74AA57-8CBE-4D0F-A04A-9263663113B9}"
 	ProjectSection(SolutionItems) = preProject
+		SqlQuery.sql = SqlQuery.sql
 		Untitled Diagram.drawio = Untitled Diagram.drawio
 	EndProjectSection
 EndProject
