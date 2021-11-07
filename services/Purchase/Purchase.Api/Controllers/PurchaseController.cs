@@ -1,4 +1,6 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Purchase.Service.Commands.CreatePurchase;
@@ -9,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Purchase.Api.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("v1/[controller]")]
     [ApiController]
     public class PurchaseController : ControllerBase

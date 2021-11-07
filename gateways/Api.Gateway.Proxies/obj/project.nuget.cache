@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZgPxQOBVpj7uD88MCS2yHLBP2IyoFxu4/Rggthow+h4GqV1fXM+O++a/rhyJGo7Eq8a8kgAPNeKiVq5Ss40I8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\gateways\\Api.Gateway.Proxies\\Api.Gateway.Proxies.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\MIGUEL\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
