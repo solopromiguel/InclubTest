@@ -53,3 +53,36 @@ CREATE TABLE [dbo].[products](
 INSERT [dbo].[products] ( [name], [description], [price], [stock]) VALUES ( N'test', NULL, CAST(12.00 AS Decimal(18, 2)), CAST(0.00 AS Decimal(18, 2)))
 INSERT [dbo].[products] ( [name], [description], [price], [stock]) VALUES ( N'test2', NULL, CAST(3.00 AS Decimal(18, 2)), CAST(0.00 AS Decimal(18, 2)))
 
+/****** Object:  Database [Purchase]	 ******/
+CREATE DATABASE [Purchases]
+
+GO
+
+GO
+USE [Purchases]
+GO
+
+CREATE TABLE [Purchases](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NOT NULL,
+	[CreatedAt] [datetime2](7) NOT NULL,
+	[Total] [decimal](18, 2) NOT NULL,
+ CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+CREATE TABLE [PurchaseDetail](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ProductId] [int] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[UnitPrice] [decimal](18, 2) NOT NULL,
+	[Total] [decimal](18, 2) NOT NULL,
+	[PurchaseId] [int] NULL,
+ CONSTRAINT [PK_PurchaseDetail] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

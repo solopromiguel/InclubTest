@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\MIGUEL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\MIGUEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -96,6 +99,9 @@
         "packagesPath": "C:\\Users\\MIGUEL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Catalog\\Catalog.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\MIGUEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -150,6 +156,9 @@
         "packagesPath": "C:\\Users\\MIGUEL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Catalog\\Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\MIGUEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

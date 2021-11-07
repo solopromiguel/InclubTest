@@ -42,7 +42,7 @@ namespace Purchase.Service.Commands.CreatePurchase
 
                     //Create and fill-up master table data
                     var paramMaster = new DynamicParameters();
-                    paramMaster.Add("@ClientId", entry.ClientId, DbType.AnsiString);
+                    //paramMaster.Add("@ClientId", entry.ClientId, DbType.AnsiString);
                     paramMaster.Add("@UserId", entry.UserId, DbType.AnsiString);
                     paramMaster.Add("@CreatedAt", entry.CreatedAt, DbType.AnsiString);
                     paramMaster.Add("@Total", entry.Total, DbType.AnsiString);
@@ -92,7 +92,7 @@ namespace Purchase.Service.Commands.CreatePurchase
         {
             // Header information
             entry.UserId = notification.UserId;
-            entry.ClientId = notification.ClientId;
+            //entry.ClientId = notification.ClientId;
             entry.CreatedAt = DateTime.UtcNow;
 
             // Sum

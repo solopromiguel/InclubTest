@@ -7,7 +7,7 @@ namespace Purchase.Service.Commands.CreatePurchase
 {
    public class PurchaseCreateCommand : INotification
     {
-        public int ClientId { get; set; }
+        //public int ClientId { get; set; }
         public int UserId { get; set; }
         public IEnumerable<PurchaseCreateDetail> Items { get; set; } = new List<PurchaseCreateDetail>();
     }
