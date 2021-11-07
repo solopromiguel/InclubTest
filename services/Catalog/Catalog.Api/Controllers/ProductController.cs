@@ -1,4 +1,5 @@
 ﻿using Catalog.Service.Commands.CreateProduct;
+using Catalog.Service.Commands.UpdateProduct;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +24,18 @@ namespace Catalog.Api.Controllers
         public async Task<ActionResult<int>> Create(CreateProductCommand command)
         {
             return await _mediator.Send(command);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(int id, UpdateProductCommand command)
+        {
+            if (id != command.Id)
+            {
+                return BadRequest();
+            }
+
+            return Ok(await _mediator.Send(command));
+
         }
     }
 }

@@ -1002,10 +1002,21 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "Catalog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Catalog.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Domain.dll": {}
+        }
+      },
       "Catalog.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Catalog.Domain": "1.0.0",
           "Dapper": "2.0.123",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
@@ -4213,6 +4224,11 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Catalog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Domain/Catalog.Domain.csproj",
+      "msbuildProject": "../Catalog.Domain/Catalog.Domain.csproj"
     },
     "Catalog.Service/1.0.0": {
       "type": "project",

@@ -215,6 +215,16 @@
             "rid": "win"
           }
         }
+      },
+      "Catalog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Catalog.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Domain.dll": {}
+        }
       }
     }
   },
@@ -713,10 +723,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Catalog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Domain/Catalog.Domain.csproj",
+      "msbuildProject": "../Catalog.Domain/Catalog.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Catalog.Domain >= 1.0.0",
       "Dapper >= 2.0.123",
       "MediatR >= 9.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
@@ -750,7 +766,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj": {
+              "projectPath": "C:\\Users\\MIGUEL\\source\\repos\\InclubTestMG\\services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
