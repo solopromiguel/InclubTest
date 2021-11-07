@@ -1,5 +1,7 @@
 ﻿using Catalog.Service.Commands.CreateProduct;
+using Catalog.Service.Commands.DeleteProduct;
 using Catalog.Service.Commands.UpdateProduct;
+using Catalog.Service.Queries.GetProductAll;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +22,13 @@ namespace Catalog.Api.Controllers
         {
             _mediator = mediator;
         }
+
+        [HttpGet]
+        public async Task<IEnumerable<ProductBriefDto>> GetAll()
+        {
+            return await _mediator.Send(new GetProductAllQuery {});
+        }
+
         [HttpPost]
         public async Task<ActionResult<int>> Create(CreateProductCommand command)
         {
@@ -36,6 +45,11 @@ namespace Catalog.Api.Controllers
 
             return Ok(await _mediator.Send(command));
 
+        }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            return Ok(await _mediator.Send(new DeleteProductCommand { Id = id }));
         }
     }
 }
