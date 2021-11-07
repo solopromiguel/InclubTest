@@ -34,8 +34,6 @@ namespace Api.Gateway.Proxies
 
         public async Task<IEnumerable<ProductDto>> GetAllAsync()
         {
-            //var ids = string.Join(',', clients ?? new List<int>());
-
             var request = await _httpClient.GetAsync($"{_apiUrls.CatalogUrl}v1/product");
             request.EnsureSuccessStatusCode();
 

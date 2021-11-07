@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway.Proxies", "gate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway.Models", "gateways\Api.Gateway.Models\Api.Gateway.Models.csproj", "{5E9F548A-F78D-4B72-94DB-4D29AB047DC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.WebClient", "clients\Clients.WebClient\Clients.WebClient.csproj", "{FF6E5D76-9468-47A1-A03A-1821D678D81D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,10 @@ Global
 		{5E9F548A-F78D-4B72-94DB-4D29AB047DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E9F548A-F78D-4B72-94DB-4D29AB047DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E9F548A-F78D-4B72-94DB-4D29AB047DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6E5D76-9468-47A1-A03A-1821D678D81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6E5D76-9468-47A1-A03A-1821D678D81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6E5D76-9468-47A1-A03A-1821D678D81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6E5D76-9468-47A1-A03A-1821D678D81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{CC6BEC7E-C75D-430F-905B-CD9AFC098412} = {97781D6D-56EE-46E1-A17B-9B4AB11CFD14}
 		{645AFBEC-0117-4733-A4DC-8B2C3C3E24C9} = {97781D6D-56EE-46E1-A17B-9B4AB11CFD14}
 		{5E9F548A-F78D-4B72-94DB-4D29AB047DC4} = {97781D6D-56EE-46E1-A17B-9B4AB11CFD14}
+		{FF6E5D76-9468-47A1-A03A-1821D678D81D} = {A9AF7A16-04E4-46F6-9A9A-A5D647D66C5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED02B3D8-499C-40C9-AB44-81ECB373F079}
